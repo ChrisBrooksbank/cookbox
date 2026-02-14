@@ -1,6 +1,6 @@
 # Cookbox - Requirements Interview
 
-*Conducted 2026-02-14*
+_Conducted 2026-02-14_
 
 ---
 
@@ -120,16 +120,16 @@ A: **Nope, that covers it.**
 
 ## Summary of Decisions
 
-| Feature | Decision |
-|---|---|
-| Recipe source | Extract from loveandlemons.com, embellish as needed |
-| Images | Card thumbnails + hero banners |
-| Timers | Tap-to-start countdown per step |
-| Timer alerts | Visual flash + audio chime |
-| Ingredients | Tappable with strikethrough (ephemeral, no persist) |
-| Reset | Button with confirm dialog |
-| Tags | Meal type + diet + effort/time |
-| Colors | Navy background, gold current, green done |
-| Offline | Cache-on-use (app shell pre-cached, recipes cached when viewed) |
-| Future recipes | URL import (not v1); JSON files for now |
-| App name | Cookbox |
+| Feature        | Decision                                                        |
+| -------------- | --------------------------------------------------------------- |
+| Recipe source  | Extract from loveandlemons.com, embellish as needed             |
+| Images         | Card thumbnails + hero banners                                  |
+| Timers         | Tap-to-start countdown per step                                 |
+| Timer alerts   | Visual flash + audio chime                                      |
+| Ingredients    | Tappable with strikethrough (ephemeral, no persist)             |
+| Reset          | Button with confirm dialog                                      |
+| Tags           | Meal type + diet + effort/time                                  |
+| Colors         | Navy background, gold current, green done                       |
+| Offline        | Cache-on-use (app shell pre-cached, recipes cached when viewed) |
+| Future recipes | URL import (not v1); JSON files for now                         |
+| App name       | Cookbox                                                         |
