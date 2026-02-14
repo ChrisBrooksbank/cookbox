@@ -3,7 +3,7 @@
 ## Status
 
 - Planning iterations: 2
-- Build iterations: 12
+- Build iterations: 13
 - Last updated: 2026-02-14
 - Current phase: Phase 5 (Offline Support)
 
@@ -125,7 +125,7 @@
 
 **Goal:** Implement service worker for offline PWA functionality.
 
-- [ ] Create sw.js with cache versioning and install event (spec: service-worker.md)
+- [x] Create sw.js with cache versioning and install event (spec: service-worker.md)
     - Define cache names: cookbox-shell-v1, cookbox-recipes-v1
     - Install event handler
 

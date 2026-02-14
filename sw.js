@@ -1,11 +1,13 @@
-// Service worker placeholder - will be implemented in Phase 5
+// Cache version constants - will be used in subsequent tasks
+const _SHELL_CACHE = 'cookbox-shell-v1';
+const _RECIPES_CACHE = 'cookbox-recipes-v1';
 
-self.addEventListener('install', () => {
-    // Placeholder install event
-    self.skipWaiting();
+// Install event: set up the service worker
+self.addEventListener('install', event => {
+    event.waitUntil(self.skipWaiting());
 });
 
-self.addEventListener('activate', () => {
-    // Placeholder activate event
-    self.clients.claim();
+// Activate event: placeholder for cache cleanup
+self.addEventListener('activate', event => {
+    event.waitUntil(self.clients.claim());
 });
