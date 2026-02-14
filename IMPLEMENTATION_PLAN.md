@@ -3,9 +3,9 @@
 ## Status
 
 - Planning iterations: 2
-- Build iterations: 11
+- Build iterations: 12
 - Last updated: 2026-02-14
-- Current phase: Phase 2 (Core Modules)
+- Current phase: Phase 5 (Offline Support)
 
 ## Tasks
 
@@ -73,52 +73,53 @@
     - Integrate with storage.js to save/load current step
     - NOTE: This implementation also includes ingredient checkboxes, timer integration, progress bar, reset button, keyboard navigation, and scroll-to-current-step (tasks below)
 
-- [ ] Add ingredient checkbox toggles with strikethrough in recipe-view.js (spec: recipe-view.md)
+- [x] Add ingredient checkbox toggles with strikethrough in recipe-view.js (spec: recipe-view.md)
     - Tap ingredients to toggle strikethrough
     - State is ephemeral (not persisted to localStorage)
 
-- [ ] Add timer integration for steps with time field in recipe-view.js (spec: recipe-view.md, timers.md)
+- [x] Add timer integration for steps with time field in recipe-view.js (spec: recipe-view.md, timers.md)
     - Render tap-to-start timer for steps with `time` field
     - Integrate timer.js module for countdown and chime
 
-- [ ] Add progress bar (Step N of M) in recipe-view.js (spec: recipe-view.md)
+- [x] Add progress bar (Step N of M) in recipe-view.js (spec: recipe-view.md)
     - Sticky at top of viewport
     - Updates as current step changes
 
-- [ ] Add reset button with confirmation dialog in recipe-view.js (spec: recipe-view.md)
+- [x] Add reset button with confirmation dialog in recipe-view.js (spec: recipe-view.md)
     - Button in header area
     - Shows confirm dialog before clearing
     - Calls storage.clearStep() and resets UI
 
-- [ ] Add keyboard navigation (arrow keys) for steps in recipe-view.js (spec: recipe-view.md)
+- [x] Add keyboard navigation (arrow keys) for steps in recipe-view.js (spec: recipe-view.md)
     - Up/Down arrows navigate between steps
     - Updates current step and scrolls into view
 
-- [ ] Implement scroll-to-current-step on load in recipe-view.js (spec: recipe-view.md)
+- [x] Implement scroll-to-current-step on load in recipe-view.js (spec: recipe-view.md)
     - On initial render, scroll current step into view smoothly
 
 ### Phase 4: Navigation & Routing
 
 **Goal:** Wire up navigation, fetch recipe data, and tie all modules together.
 
-- [ ] Create js/app.js with hash-based router and hashchange listener (spec: routing.md)
+- [x] Create js/app.js with hash-based router and hashchange listener (spec: routing.md)
     - ES module as entry point
     - Hash-based routing: empty hash = list, #recipe-id = detail
     - Listen to hashchange events for view switching
     - Browser back button support
 
-- [ ] Add recipe list view rendering in app.js (spec: routing.md)
+- [x] Add recipe list view rendering in app.js (spec: routing.md)
     - Fetch recipes/index.json for catalog
     - Render recipe cards with thumbnail, title, tags, total time
     - Click handlers to navigate to #recipe-id
 
-- [ ] Add recipe detail view integration with recipe-view.js in app.js (spec: routing.md)
+- [x] Add recipe detail view integration with recipe-view.js in app.js (spec: routing.md)
     - Fetch individual recipe JSON (e.g., recipes/mushroom-risotto.json)
     - Pass recipe data to recipe-view.js module for rendering
 
-- [ ] Add service worker registration in app.js (spec: routing.md, service-worker.md)
+- [x] Add service worker registration in app.js (spec: routing.md, service-worker.md)
     - Check for navigator.serviceWorker support
     - Register sw.js on DOMContentLoaded
+    - NOTE: Placeholder sw.js created to prevent 404 errors; full implementation in Phase 5
 
 ### Phase 5: Offline Support
 
