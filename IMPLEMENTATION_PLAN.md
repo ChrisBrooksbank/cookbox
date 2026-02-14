@@ -3,7 +3,7 @@
 ## Status
 
 - Planning iterations: 2
-- Build iterations: 10
+- Build iterations: 11
 - Last updated: 2026-02-14
 - Current phase: Phase 2 (Core Modules)
 
@@ -66,11 +66,12 @@
 
 **Goal:** Build the core recipe detail UI with all interactive features.
 
-- [ ] Create js/recipe-view.js with step state management (done/current/upcoming) (spec: recipe-view.md)
+- [x] Create js/recipe-view.js with step state management (done/current/upcoming) (spec: recipe-view.md)
     - Render recipe header, hero image, ingredients list, all steps
     - Three step states: done (green), current (gold), upcoming (muted)
     - Click handler: tap any step to mark it current, auto-mark prior steps done
     - Integrate with storage.js to save/load current step
+    - NOTE: This implementation also includes ingredient checkboxes, timer integration, progress bar, reset button, keyboard navigation, and scroll-to-current-step (tasks below)
 
 - [ ] Add ingredient checkbox toggles with strikethrough in recipe-view.js (spec: recipe-view.md)
     - Tap ingredients to toggle strikethrough
