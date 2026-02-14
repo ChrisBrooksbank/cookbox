@@ -3,7 +3,7 @@
 ## Status
 
 - Planning iterations: 2
-- Build iterations: 4
+- Build iterations: 5
 - Last updated: 2026-02-14
 - Current phase: Phase 1 (Foundation)
 
@@ -32,7 +32,7 @@
     - Theme color: #1a1a2e, display: standalone
     - Icon references for 192px and 512px
 
-- [ ] Create icons/icon-192.png and icons/icon-512.png from favicon.svg (spec: pwa-manifest.md)
+- [x] Create icons/icon-192.png and icons/icon-512.png from favicon.svg (spec: pwa-manifest.md)
     - Generate PNG icons from SVG source
 
 - [ ] Create recipes/mushroom-risotto.json with content from loveandlemons.com (spec: recipe-data.md)
