@@ -3,7 +3,7 @@
 ## Status
 
 - Planning iterations: 2
-- Build iterations: 14
+- Build iterations: 15
 - Last updated: 2026-02-14
 - Current phase: Phase 5 (Offline Support)
 
@@ -133,7 +133,7 @@
     - Pre-cache on install: index.html, css/style.css, all js/\*.js, manifest.json, icons
     - waitUntil() to ensure caching completes before activation
 
-- [ ] Add cache-on-use strategy for recipes and images in sw.js (spec: service-worker.md)
+- [x] Add cache-on-use strategy for recipes and images in sw.js (spec: service-worker.md)
     - Fetch handler: cache recipes and images when first requested
     - Use cookbox-recipes-v1 cache for recipe JSON and images
 
