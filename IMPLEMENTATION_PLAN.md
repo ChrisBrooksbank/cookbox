@@ -3,7 +3,7 @@
 ## Status
 
 - Planning iterations: 2
-- Build iterations: 15
+- Build iterations: 16
 - Last updated: 2026-02-14
 - Current phase: Phase 5 (Offline Support)
 
@@ -137,7 +137,7 @@
     - Fetch handler: cache recipes and images when first requested
     - Use cookbox-recipes-v1 cache for recipe JSON and images
 
-- [ ] Add cache cleanup on activate event in sw.js (spec: service-worker.md)
+- [x] Add cache cleanup on activate event in sw.js (spec: service-worker.md)
     - Delete old cache versions on activate
     - Claim clients immediately
 

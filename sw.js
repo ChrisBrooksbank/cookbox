@@ -26,9 +26,20 @@ self.addEventListener('install', event => {
     );
 });
 
-// Activate event: placeholder for cache cleanup
+// Activate event: clean up old caches and claim clients
 self.addEventListener('activate', event => {
-    event.waitUntil(self.clients.claim());
+    event.waitUntil(
+        caches
+            .keys()
+            .then(cacheNames => {
+                // Delete any cache that doesn't match current version
+                const deletePromises = cacheNames
+                    .filter(name => name !== SHELL_CACHE && name !== RECIPES_CACHE)
+                    .map(name => caches.delete(name));
+                return Promise.all(deletePromises);
+            })
+            .then(() => self.clients.claim())
+    );
 });
 
 // Fetch event: cache-on-use strategy for recipes and images
