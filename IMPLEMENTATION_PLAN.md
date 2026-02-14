@@ -3,7 +3,7 @@
 ## Status
 
 - Planning iterations: 2
-- Build iterations: 9
+- Build iterations: 10
 - Last updated: 2026-02-14
 - Current phase: Phase 2 (Core Modules)
 
@@ -55,7 +55,7 @@
     - Graceful error handling for missing/corrupt data
     - Returns null for missing data, never throws
 
-- [ ] Create js/timer.js with createTimer, playChime, and Web Audio API implementation (spec: timers.md)
+- [x] Create js/timer.js with createTimer, playChime, and Web Audio API implementation (spec: timers.md)
     - Parse time strings ("8 min", "30 sec") into seconds
     - Countdown display in mm:ss format
     - Web Audio API chime generator (no external files)
