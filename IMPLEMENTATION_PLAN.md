@@ -3,7 +3,7 @@
 ## Status
 
 - Planning iterations: 2
-- Build iterations: 2
+- Build iterations: 3
 - Last updated: 2026-02-14
 - Current phase: Phase 1 (Foundation)
 
@@ -24,7 +24,7 @@
     - Mobile-first responsive: single column <768px, two-column grid >768px
     - Desktop: sticky ingredients sidebar
 
-- [ ] Create icons/favicon.svg with simple Cookbox logo (spec: app-shell.md, pwa-manifest.md)
+- [x] Create icons/favicon.svg with simple Cookbox logo (spec: app-shell.md, pwa-manifest.md)
     - Simple SVG icon suitable for scaling to PNG
 
 - [ ] Create manifest.json with PWA metadata and theme colors (spec: pwa-manifest.md)
