@@ -2,7 +2,7 @@
     "id": "mushroom-risotto",
     "title": "Mushroom Risotto",
     "description": "Rich and creamy risotto with mixed mushrooms, white wine, fresh herbs, and Parmesan cheese. Perfect for an elegant dinner that's surprisingly approachable.",
-    "image": "recipes/images/mushroom-risotto.jpg",
+    "image": "recipes/images/mushroom-risotto.svg",
     "prepTime": 15,
     "cookTime": 30,
     "totalTime": 45,

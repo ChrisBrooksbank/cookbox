@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Mushroom Risotto illustration placeholder -->
+  <defs>
+    <style>
+      .plate { fill: #f5f5f5; stroke: #d0d0d0; stroke-width: 3; }
+      .plate-shadow { fill: #e8e8e8; }
+      .risotto { fill: #f4e8c1; }
+      .risotto-highlight { fill: #fff8dc; }
+      .mushroom-cap { fill: #8b7355; }
+      .mushroom-gill { fill: #6b5845; }
+      .mushroom-highlight { fill: #a08968; }
+      .parsley { fill: #4ade80; }
+      .parsley-dark { fill: #2fb364; }
+      .cheese { fill: #fffacd; }
+      .steam { fill: none; stroke: #e0e0e0; stroke-width: 2; stroke-linecap: round; opacity: 0.6; }
+    </style>
+    <radialGradient id="plate-grad" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#ffffff" />
+      <stop offset="100%" style="stop-color:#f5f5f5" />
+    </radialGradient>
+    <radialGradient id="risotto-grad" cx="50%" cy="40%">
+      <stop offset="0%" style="stop-color:#fff8dc" />
+      <stop offset="100%" style="stop-color:#f4e8c1" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="#1a1a2e"/>
+
+  <!-- Table surface -->
+  <rect x="0" y="400" width="800" height="200" fill="#2a2a3e"/>
+
+  <!-- Plate shadow -->
+  <ellipse class="plate-shadow" cx="400" cy="440" rx="240" ry="30" opacity="0.3"/>
+
+  <!-- Plate -->
+  <circle cx="400" cy="300" r="220" fill="url(#plate-grad)" stroke="#d0d0d0" stroke-width="3"/>
+  <circle cx="400" cy="300" r="200" fill="none" stroke="#e0e0e0" stroke-width="1"/>
+
+  <!-- Risotto base -->
+  <ellipse cx="400" cy="300" rx="170" ry="140" fill="url(#risotto-grad)"/>
+
+  <!-- Risotto texture (creamy appearance) -->
+  <ellipse class="risotto-highlight" cx="380" cy="280" rx="60" ry="40" opacity="0.4"/>
+  <ellipse class="risotto-highlight" cx="420" cy="310" rx="50" ry="35" opacity="0.3"/>
+  <ellipse class="risotto-highlight" cx="400" cy="250" rx="45" ry="30" opacity="0.35"/>
+
+  <!-- Mushroom slices scattered on top -->
+  <!-- Mushroom 1 -->
+  <ellipse class="mushroom-cap" cx="350" cy="270" rx="35" ry="28"/>
+  <ellipse class="mushroom-gill" cx="350" cy="270" rx="25" ry="20"/>
+  <ellipse class="mushroom-highlight" cx="345" cy="265" rx="15" ry="12" opacity="0.4"/>
+
+  <!-- Mushroom 2 -->
+  <ellipse class="mushroom-cap" cx="430" cy="285" rx="40" ry="32"/>
+  <ellipse class="mushroom-gill" cx="430" cy="285" rx="28" ry="22"/>
+  <ellipse class="mushroom-highlight" cx="423" cy="278" rx="18" ry="14" opacity="0.4"/>
+
+  <!-- Mushroom 3 -->
+  <ellipse class="mushroom-cap" cx="390" cy="320" rx="32" ry="26"/>
+  <ellipse class="mushroom-gill" cx="390" cy="320" rx="22" ry="18"/>
+  <ellipse class="mushroom-highlight" cx="385" cy="315" rx="12" ry="10" opacity="0.4"/>
+
+  <!-- Mushroom 4 -->
+  <ellipse class="mushroom-cap" cx="460" cy="320" rx="28" ry="22"/>
+  <ellipse class="mushroom-gill" cx="460" cy="320" rx="18" ry="14"/>
+  <ellipse class="mushroom-highlight" cx="456" cy="316" rx="10" ry="8" opacity="0.4"/>
+
+  <!-- Mushroom 5 (smaller) -->
+  <ellipse class="mushroom-cap" cx="340" cy="310" rx="24" ry="20"/>
+  <ellipse class="mushroom-gill" cx="340" cy="310" rx="16" ry="13"/>
+  <ellipse class="mushroom-highlight" cx="337" cy="307" rx="8" ry="6" opacity="0.4"/>
+
+  <!-- Mushroom 6 -->
+  <ellipse class="mushroom-cap" cx="410" cy="250" rx="30" ry="24"/>
+  <ellipse class="mushroom-gill" cx="410" cy="250" rx="20" ry="16"/>
+  <ellipse class="mushroom-highlight" cx="406" cy="246" rx="12" ry="9" opacity="0.4"/>
+
+  <!-- Mushroom 7 (smaller) -->
+  <ellipse class="mushroom-cap" cx="370" cy="340" rx="22" ry="18"/>
+  <ellipse class="mushroom-gill" cx="370" cy="340" rx="14" ry="11"/>
+  <ellipse class="mushroom-highlight" cx="367" cy="337" rx="7" ry="5" opacity="0.4"/>
+
+  <!-- Parsley garnish -->
+  <!-- Parsley cluster 1 -->
+  <circle class="parsley" cx="320" cy="290" r="6"/>
+  <circle class="parsley-dark" cx="318" cy="288" r="3"/>
+  <circle class="parsley" cx="328" cy="293" r="5"/>
+  <circle class="parsley" cx="325" cy="285" r="4"/>
+
+  <!-- Parsley cluster 2 -->
+  <circle class="parsley" cx="470" cy="300" r="5"/>
+  <circle class="parsley-dark" cx="468" cy="298" r="2.5"/>
+  <circle class="parsley" cx="476" cy="304" r="6"/>
+  <circle class="parsley" cx="473" cy="296" r="4"/>
+
+  <!-- Parsley cluster 3 -->
+  <circle class="parsley" cx="395" cy="360" r="5"/>
+  <circle class="parsley" cx="402" cy="363" r="6"/>
+  <circle class="parsley-dark" cx="400" cy="361" r="3"/>
+  <circle class="parsley" cx="398" cy="356" r="4"/>
+
+  <!-- Parsley cluster 4 (smaller) -->
+  <circle class="parsley" cx="440" cy="340" r="4"/>
+  <circle class="parsley" cx="445" cy="343" r="5"/>
+  <circle class="parsley-dark" cx="443" cy="341" r="2"/>
+
+  <!-- Grated cheese on top -->
+  <g opacity="0.7">
+    <rect class="cheese" x="360" y="275" width="3" height="8" rx="1"/>
+    <rect class="cheese" x="375" y="295" width="2" height="6" rx="1"/>
+    <rect class="cheese" x="390" y="285" width="3" height="7" rx="1"/>
+    <rect class="cheese" x="405" y="270" width="2" height="5" rx="1"/>
+    <rect class="cheese" x="420" y="305" width="3" height="8" rx="1"/>
+    <rect class="cheese" x="435" y="295" width="2" height="6" rx="1"/>
+    <rect class="cheese" x="450" cy="310" width="3" height="7" rx="1"/>
+    <rect class="cheese" x="365" y="315" width="2" height="5" rx="1"/>
+    <rect class="cheese" x="385" y="305" width="3" height="6" rx="1"/>
+    <rect class="cheese" x="415" y="290" width="2" height="7" rx="1"/>
+  </g>
+
+  <!-- Steam wisps -->
+  <path class="steam" d="M 350 200 Q 345 180 350 160">
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="3s" repeatCount="indefinite"/>
+  </path>
+  <path class="steam" d="M 400 190 Q 400 165 400 140">
+    <animate attributeName="opacity" values="0.5;0.3;0.5" dur="2.5s" repeatCount="indefinite"/>
+  </path>
+  <path class="steam" d="M 450 200 Q 455 180 450 160">
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="3.2s" repeatCount="indefinite"/>
+  </path>
+  <path class="steam" d="M 375 195 Q 370 175 375 155">
+    <animate attributeName="opacity" values="0.4;0.2;0.4" dur="2.8s" repeatCount="indefinite"/>
+  </path>
+  <path class="steam" d="M 425 195 Q 430 175 425 155">
+    <animate attributeName="opacity" values="0.5;0.1;0.5" dur="3.5s" repeatCount="indefinite"/>
+  </path>
+</svg>

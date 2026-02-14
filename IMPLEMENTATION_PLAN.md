@@ -3,7 +3,7 @@
 ## Status
 
 - Planning iterations: 2
-- Build iterations: 6
+- Build iterations: 7
 - Last updated: 2026-02-14
 - Current phase: Phase 1 (Foundation)
 
@@ -39,7 +39,7 @@
     - Extract and structure recipe: ~12 ingredients, 4 steps, 2+ timed steps
     - Include all required fields: id, title, description, image, times, servings, tags, ingredients, steps
 
-- [ ] Add recipes/images/mushroom-risotto.jpg hero image (spec: recipe-data.md)
+- [x] Add recipes/images/mushroom-risotto.jpg hero image (spec: recipe-data.md)
     - Source appropriate recipe image
 
 - [ ] Create recipes/index.json catalog array (spec: recipe-data.md)
