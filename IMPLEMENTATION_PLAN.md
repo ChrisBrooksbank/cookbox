@@ -3,7 +3,7 @@
 ## Status
 
 - Planning iterations: 2
-- Build iterations: 3
+- Build iterations: 4
 - Last updated: 2026-02-14
 - Current phase: Phase 1 (Foundation)
 
@@ -27,7 +27,7 @@
 - [x] Create icons/favicon.svg with simple Cookbox logo (spec: app-shell.md, pwa-manifest.md)
     - Simple SVG icon suitable for scaling to PNG
 
-- [ ] Create manifest.json with PWA metadata and theme colors (spec: pwa-manifest.md)
+- [x] Create manifest.json with PWA metadata and theme colors (spec: pwa-manifest.md)
     - Name: "Cookbox", short_name: "Cookbox"
     - Theme color: #1a1a2e, display: standalone
     - Icon references for 192px and 512px
