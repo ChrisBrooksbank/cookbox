@@ -3,7 +3,7 @@
 ## Status
 
 - Planning iterations: 2
-- Build iterations: 7
+- Build iterations: 8
 - Last updated: 2026-02-14
 - Current phase: Phase 1 (Foundation)
 
@@ -42,7 +42,7 @@
 - [x] Add recipes/images/mushroom-risotto.jpg hero image (spec: recipe-data.md)
     - Source appropriate recipe image
 
-- [ ] Create recipes/index.json catalog array (spec: recipe-data.md)
+- [x] Create recipes/index.json catalog array (spec: recipe-data.md)
     - Initially contains: ["mushroom-risotto"]
 
 ### Phase 2: Core Modules
