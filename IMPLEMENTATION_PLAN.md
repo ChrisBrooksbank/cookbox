@@ -3,9 +3,9 @@
 ## Status
 
 - Planning iterations: 2
-- Build iterations: 8
+- Build iterations: 9
 - Last updated: 2026-02-14
-- Current phase: Phase 1 (Foundation)
+- Current phase: Phase 2 (Core Modules)
 
 ## Tasks
 
@@ -49,7 +49,7 @@
 
 **Goal:** Build reusable utility modules that recipe-view.js will depend on.
 
-- [ ] Create js/storage.js with saveStep, loadStep, clearStep functions (spec: storage.md)
+- [x] Create js/storage.js with saveStep, loadStep, clearStep functions (spec: storage.md)
     - ES module exporting three functions
     - Key format: `cookbox:step:{recipeId}`
     - Graceful error handling for missing/corrupt data
