@@ -3,7 +3,7 @@
 ## Status
 
 - Planning iterations: 2
-- Build iterations: 13
+- Build iterations: 14
 - Last updated: 2026-02-14
 - Current phase: Phase 5 (Offline Support)
 
@@ -129,7 +129,7 @@
     - Define cache names: cookbox-shell-v1, cookbox-recipes-v1
     - Install event handler
 
-- [ ] Add app shell pre-caching strategy in sw.js (spec: service-worker.md)
+- [x] Add app shell pre-caching strategy in sw.js (spec: service-worker.md)
     - Pre-cache on install: index.html, css/style.css, all js/\*.js, manifest.json, icons
     - waitUntil() to ensure caching completes before activation
 
