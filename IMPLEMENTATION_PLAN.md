@@ -3,7 +3,7 @@
 ## Status
 
 - Planning iterations: 2
-- Build iterations: 16
+- Build iterations: 17
 - Last updated: 2026-02-14
 - Current phase: Phase 5 (Offline Support)
 
@@ -141,7 +141,7 @@
     - Delete old cache versions on activate
     - Claim clients immediately
 
-- [ ] Add network-first fetch strategy with cache fallback in sw.js (spec: service-worker.md)
+- [x] Add network-first fetch strategy with cache fallback in sw.js (spec: service-worker.md)
     - Network-first for recipes (fresh data preferred)
     - Cache-first for app shell
     - Fallback to cache when offline
