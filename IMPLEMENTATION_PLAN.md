@@ -3,7 +3,7 @@
 ## Status
 
 - Planning iterations: 2
-- Build iterations: 5
+- Build iterations: 6
 - Last updated: 2026-02-14
 - Current phase: Phase 1 (Foundation)
 
@@ -35,7 +35,7 @@
 - [x] Create icons/icon-192.png and icons/icon-512.png from favicon.svg (spec: pwa-manifest.md)
     - Generate PNG icons from SVG source
 
-- [ ] Create recipes/mushroom-risotto.json with content from loveandlemons.com (spec: recipe-data.md)
+- [x] Create recipes/mushroom-risotto.json with content from loveandlemons.com (spec: recipe-data.md)
     - Extract and structure recipe: ~12 ingredients, 4 steps, 2+ timed steps
     - Include all required fields: id, title, description, image, times, servings, tags, ingredients, steps
 
