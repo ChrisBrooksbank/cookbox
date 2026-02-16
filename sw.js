@@ -1,6 +1,6 @@
 // Cache version constants
-const SHELL_CACHE = 'cookbox-shell-v1';
-const RECIPES_CACHE = 'cookbox-recipes-v1';
+const SHELL_CACHE = 'cookbox-shell-v2';
+const RECIPES_CACHE = 'cookbox-recipes-v2';
 
 // App shell files to pre-cache on install
 const SHELL_FILES = [
