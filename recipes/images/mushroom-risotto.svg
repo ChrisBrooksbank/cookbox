@@ -1,0 +1,258 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="risotto-grad" cx="50%" cy="45%" rx="50%" ry="50%">
+      <stop offset="0%" stop-color="#f5e6a8"/>
+      <stop offset="40%" stop-color="#e8d48b"/>
+      <stop offset="80%" stop-color="#dcc573"/>
+      <stop offset="100%" stop-color="#c9ad5a"/>
+    </radialGradient>
+    <radialGradient id="broth-sheen" cx="40%" cy="35%">
+      <stop offset="0%" stop-color="#fff8dc" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#f5e6a8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="plate-grad" cx="45%" cy="42%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#f7f7f7"/>
+      <stop offset="100%" stop-color="#e8e8e8"/>
+    </radialGradient>
+    <radialGradient id="rim-highlight" cx="35%" cy="30%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mush-cap1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a08060"/>
+      <stop offset="50%" stop-color="#7a5c3a"/>
+      <stop offset="100%" stop-color="#5e4428"/>
+    </linearGradient>
+    <linearGradient id="mush-cap2" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#967050"/>
+      <stop offset="50%" stop-color="#6e4e30"/>
+      <stop offset="100%" stop-color="#543a20"/>
+    </linearGradient>
+    <linearGradient id="mush-cap3" x1="0%" y1="20%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#b08a60"/>
+      <stop offset="50%" stop-color="#8a6842"/>
+      <stop offset="100%" stop-color="#6a4e2e"/>
+    </linearGradient>
+    <linearGradient id="mush-stem" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e0d0b8"/>
+      <stop offset="50%" stop-color="#f0e8d8"/>
+      <stop offset="100%" stop-color="#d8c8a8"/>
+    </linearGradient>
+    <linearGradient id="steam-grad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#e0ddd8" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#e0ddd8" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="plate-shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="12"/>
+    </filter>
+    <linearGradient id="leaf-grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5ec96a"/>
+      <stop offset="50%" stop-color="#3aaa48"/>
+      <stop offset="100%" stop-color="#2d8a3a"/>
+    </linearGradient>
+    <linearGradient id="leaf-grad2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4dbf58"/>
+      <stop offset="50%" stop-color="#38a445"/>
+      <stop offset="100%" stop-color="#2a8035"/>
+    </linearGradient>
+    <linearGradient id="table-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2e2e44"/>
+      <stop offset="100%" stop-color="#222238"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="#1a1a2e"/>
+
+  <rect x="0" y="390" width="800" height="210" fill="url(#table-grad)"/>
+  <line x1="0" y1="390" x2="800" y2="390" stroke="#3a3a52" stroke-width="1" opacity="0.4"/>
+
+  <ellipse cx="400" cy="430" rx="220" ry="28" fill="#0e0e1e" opacity="0.5" filter="url(#plate-shadow)"/>
+
+  <circle cx="400" cy="300" r="220" fill="url(#plate-grad)" stroke="#d8d8d8" stroke-width="2"/>
+  <circle cx="400" cy="300" r="220" fill="url(#rim-highlight)" opacity="0.3"/>
+  <circle cx="400" cy="300" r="195" fill="none" stroke="#e4e4e4" stroke-width="0.8" opacity="0.6"/>
+  <circle cx="400" cy="300" r="175" fill="none" stroke="#ececec" stroke-width="0.5" opacity="0.4"/>
+
+  <ellipse cx="400" cy="305" rx="168" ry="135" fill="url(#risotto-grad)"/>
+
+  <ellipse cx="380" cy="285" rx="120" ry="90" fill="url(#broth-sheen)"/>
+
+  <g opacity="0.25" fill="#fff8dc">
+    <ellipse cx="340" cy="270" rx="5" ry="2" transform="rotate(-20 340 270)"/>
+    <ellipse cx="365" cy="285" rx="4" ry="1.5" transform="rotate(15 365 285)"/>
+    <ellipse cx="390" cy="260" rx="5" ry="2" transform="rotate(-10 390 260)"/>
+    <ellipse cx="420" cy="275" rx="4.5" ry="1.8" transform="rotate(25 420 275)"/>
+    <ellipse cx="445" cy="290" rx="5" ry="2" transform="rotate(-5 445 290)"/>
+    <ellipse cx="355" cy="310" rx="4" ry="1.5" transform="rotate(30 355 310)"/>
+    <ellipse cx="380" cy="330" rx="5" ry="2" transform="rotate(-25 380 330)"/>
+    <ellipse cx="410" cy="315" rx="4.5" ry="1.8" transform="rotate(10 410 315)"/>
+    <ellipse cx="440" cy="330" rx="4" ry="1.5" transform="rotate(-15 440 330)"/>
+    <ellipse cx="460" cy="310" rx="5" ry="2" transform="rotate(20 460 310)"/>
+    <ellipse cx="325" cy="295" rx="4.5" ry="1.8" transform="rotate(5 325 295)"/>
+    <ellipse cx="470" cy="295" rx="4" ry="1.5" transform="rotate(-30 470 295)"/>
+    <ellipse cx="350" cy="340" rx="5" ry="2" transform="rotate(12 350 340)"/>
+    <ellipse cx="420" cy="345" rx="4" ry="1.5" transform="rotate(-8 420 345)"/>
+    <ellipse cx="395" cy="295" rx="4.5" ry="1.8" transform="rotate(18 395 295)"/>
+    <ellipse cx="430" cy="260" rx="4" ry="1.5" transform="rotate(-22 430 260)"/>
+    <ellipse cx="310" cy="310" rx="4" ry="1.5" transform="rotate(8 310 310)"/>
+    <ellipse cx="480" cy="315" rx="4.5" ry="1.8" transform="rotate(-12 480 315)"/>
+  </g>
+
+  <g opacity="0.12">
+    <ellipse cx="360" cy="320" rx="40" ry="20" fill="#8a7040"/>
+    <ellipse cx="440" cy="310" rx="35" ry="18" fill="#8a7040"/>
+    <ellipse cx="400" cy="360" rx="50" ry="15" fill="#8a7040"/>
+  </g>
+
+  <g transform="translate(345, 270) rotate(-15)">
+    <path d="M-30,0 Q-32,-22 -18,-30 Q-5,-38 10,-35 Q25,-30 30,-15 Q32,0 30,5 L-30,5 Z" fill="url(#mush-cap1)"/>
+    <path d="M-20,-5 Q-22,-18 -10,-25 Q0,-30 12,-27 Q20,-22 22,-10 Q18,-5 10,-3 Z" fill="#b09070" opacity="0.3"/>
+    <rect x="-8" y="5" width="16" height="18" rx="3" fill="url(#mush-stem)"/>
+    <g stroke="#6b5040" stroke-width="0.6" opacity="0.5">
+      <line x1="0" y1="5" x2="-22" y2="-8"/>
+      <line x1="0" y1="5" x2="-18" y2="-18"/>
+      <line x1="0" y1="5" x2="-8" y2="-25"/>
+      <line x1="0" y1="5" x2="5" y2="-28"/>
+      <line x1="0" y1="5" x2="16" y2="-22"/>
+      <line x1="0" y1="5" x2="24" y2="-10"/>
+    </g>
+  </g>
+
+  <g transform="translate(440, 285) rotate(10)">
+    <path d="M-35,0 Q-37,-25 -20,-35 Q-5,-42 12,-38 Q30,-32 35,-15 Q37,0 35,5 L-35,5 Z" fill="url(#mush-cap2)"/>
+    <path d="M-24,-5 Q-26,-20 -12,-28 Q2,-34 15,-30 Q25,-24 27,-10 Q22,-5 12,-3 Z" fill="#a88060" opacity="0.25"/>
+    <rect x="-9" y="5" width="18" height="20" rx="3" fill="url(#mush-stem)"/>
+    <g stroke="#5a4030" stroke-width="0.6" opacity="0.45">
+      <line x1="0" y1="5" x2="-26" y2="-10"/>
+      <line x1="0" y1="5" x2="-20" y2="-22"/>
+      <line x1="0" y1="5" x2="-8" y2="-30"/>
+      <line x1="0" y1="5" x2="6" y2="-32"/>
+      <line x1="0" y1="5" x2="18" y2="-25"/>
+      <line x1="0" y1="5" x2="28" y2="-12"/>
+    </g>
+  </g>
+
+  <g transform="translate(395, 328) rotate(-5)">
+    <path d="M-25,0 Q-27,-18 -15,-26 Q-3,-32 10,-28 Q22,-24 25,-10 Q27,0 25,4 L-25,4 Z" fill="url(#mush-cap3)"/>
+    <path d="M-16,-3 Q-18,-14 -8,-20 Q2,-24 12,-20 Q18,-15 19,-6 Q14,-3 6,-2 Z" fill="#c0a070" opacity="0.25"/>
+    <rect x="-6" y="4" width="12" height="15" rx="2" fill="url(#mush-stem)"/>
+    <g stroke="#6a5038" stroke-width="0.5" opacity="0.45">
+      <line x1="0" y1="4" x2="-18" y2="-8"/>
+      <line x1="0" y1="4" x2="-12" y2="-18"/>
+      <line x1="0" y1="4" x2="-2" y2="-23"/>
+      <line x1="0" y1="4" x2="10" y2="-20"/>
+      <line x1="0" y1="4" x2="18" y2="-10"/>
+    </g>
+  </g>
+
+  <g transform="translate(465, 268) rotate(20)">
+    <path d="M-22,0 Q-24,-16 -14,-24 Q-4,-30 8,-26 Q20,-22 22,-10 Q24,0 22,4 L-22,4 Z" fill="url(#mush-cap1)"/>
+    <path d="M-14,-2 Q-15,-12 -7,-18 Q1,-22 10,-18 Q15,-13 16,-5 Q12,-2 5,-1 Z" fill="#b89868" opacity="0.25"/>
+    <rect x="-5" y="4" width="10" height="13" rx="2" fill="url(#mush-stem)"/>
+    <g stroke="#6b5040" stroke-width="0.5" opacity="0.4">
+      <line x1="0" y1="4" x2="-16" y2="-6"/>
+      <line x1="0" y1="4" x2="-10" y2="-16"/>
+      <line x1="0" y1="4" x2="0" y2="-22"/>
+      <line x1="0" y1="4" x2="10" y2="-16"/>
+      <line x1="0" y1="4" x2="16" y2="-6"/>
+    </g>
+  </g>
+
+  <g transform="translate(330, 320) rotate(-25)">
+    <path d="M-18,0 Q-20,-13 -10,-20 Q-2,-24 8,-20 Q16,-16 18,-6 Q19,0 18,3 L-18,3 Z" fill="url(#mush-cap2)"/>
+    <rect x="-4" y="3" width="8" height="11" rx="2" fill="url(#mush-stem)"/>
+    <g stroke="#5a4030" stroke-width="0.5" opacity="0.4">
+      <line x1="0" y1="3" x2="-12" y2="-6"/>
+      <line x1="0" y1="3" x2="-6" y2="-14"/>
+      <line x1="0" y1="3" x2="4" y2="-17"/>
+      <line x1="0" y1="3" x2="12" y2="-10"/>
+    </g>
+  </g>
+
+  <g transform="translate(380, 252) rotate(8)">
+    <path d="M-20,0 Q-22,-15 -12,-22 Q-3,-27 8,-23 Q18,-18 20,-8 Q21,0 20,3 L-20,3 Z" fill="url(#mush-cap3)"/>
+    <rect x="-4" y="3" width="9" height="12" rx="2" fill="url(#mush-stem)"/>
+    <g stroke="#6a5038" stroke-width="0.5" opacity="0.4">
+      <line x1="0" y1="3" x2="-14" y2="-5"/>
+      <line x1="0" y1="3" x2="-8" y2="-15"/>
+      <line x1="0" y1="3" x2="2" y2="-20"/>
+      <line x1="0" y1="3" x2="12" y2="-13"/>
+      <line x1="0" y1="3" x2="15" y2="-4"/>
+    </g>
+  </g>
+
+  <g transform="translate(490, 310) rotate(15)">
+    <path d="M-14,0 Q-15,-10 -8,-16 Q-1,-20 6,-16 Q12,-12 14,-5 Q15,0 14,3 L-14,3 Z" fill="url(#mush-cap1)"/>
+    <rect x="-3" y="3" width="6" height="9" rx="1.5" fill="url(#mush-stem)"/>
+    <g stroke="#6b5040" stroke-width="0.4" opacity="0.35">
+      <line x1="0" y1="3" x2="-9" y2="-4"/>
+      <line x1="0" y1="3" x2="-4" y2="-12"/>
+      <line x1="0" y1="3" x2="4" y2="-13"/>
+      <line x1="0" y1="3" x2="9" y2="-5"/>
+    </g>
+  </g>
+
+  <g transform="translate(315, 288)">
+    <path d="M0,0 Q-8,-10 -5,-18 Q-2,-22 2,-18 Q5,-12 3,-5 Z" fill="url(#leaf-grad1)"/>
+    <path d="M0,0 Q5,-12 10,-16 Q14,-18 13,-13 Q11,-7 5,-2 Z" fill="url(#leaf-grad2)"/>
+    <path d="M0,0 Q-10,-4 -15,-2 Q-17,1 -12,3 Q-7,4 -2,2 Z" fill="url(#leaf-grad1)" opacity="0.9"/>
+    <line x1="0" y1="0" x2="-3" y2="-14" stroke="#2d7a32" stroke-width="0.5" opacity="0.4"/>
+    <line x1="0" y1="0" x2="8" y2="-12" stroke="#2d7a32" stroke-width="0.5" opacity="0.4"/>
+  </g>
+
+  <g transform="translate(475, 298)">
+    <path d="M0,0 Q6,-11 4,-19 Q2,-23 -2,-18 Q-4,-11 -2,-4 Z" fill="url(#leaf-grad2)"/>
+    <path d="M0,0 Q-7,-10 -12,-14 Q-15,-15 -13,-10 Q-10,-5 -4,-1 Z" fill="url(#leaf-grad1)"/>
+    <path d="M0,0 Q8,-5 14,-3 Q16,0 12,3 Q7,4 2,2 Z" fill="url(#leaf-grad2)" opacity="0.9"/>
+    <path d="M0,0 Q-3,8 -6,12 Q-7,15 -4,13 Q-1,10 0,5 Z" fill="url(#leaf-grad1)" opacity="0.7"/>
+    <line x1="0" y1="0" x2="3" y2="-15" stroke="#2d7a32" stroke-width="0.5" opacity="0.4"/>
+  </g>
+
+  <g transform="translate(405, 360)">
+    <path d="M0,0 Q-6,-9 -3,-16 Q0,-19 3,-15 Q5,-9 3,-4 Z" fill="url(#leaf-grad1)"/>
+    <path d="M0,0 Q7,-7 12,-8 Q15,-7 12,-3 Q8,0 4,1 Z" fill="url(#leaf-grad2)"/>
+    <path d="M0,0 Q-9,-2 -13,1 Q-14,4 -10,5 Q-5,4 -1,2 Z" fill="url(#leaf-grad1)" opacity="0.85"/>
+  </g>
+
+  <g transform="translate(445, 255) rotate(30)">
+    <path d="M0,0 Q-4,-7 -2,-13 Q0,-16 2,-12 Q4,-7 2,-3 Z" fill="url(#leaf-grad2)" opacity="0.8"/>
+    <path d="M0,0 Q5,-5 9,-4 Q10,-2 7,0 Q4,1 1,1 Z" fill="url(#leaf-grad1)" opacity="0.7"/>
+  </g>
+
+  <g opacity="0.65">
+    <path d="M358,278 Q362,272 368,274 Q370,278 366,281 Q361,282 358,278Z" fill="#fff8dc"/>
+    <path d="M392,262 Q396,258 400,261 Q401,265 397,266 Q393,265 392,262Z" fill="#fef5c8"/>
+    <path d="M418,288 Q423,283 428,286 Q430,290 425,293 Q420,292 418,288Z" fill="#fff8dc"/>
+    <path d="M372,305 Q377,300 382,303 Q383,307 379,309 Q374,308 372,305Z" fill="#fef5c8"/>
+    <path d="M448,302 Q452,297 457,299 Q459,303 455,306 Q450,305 448,302Z" fill="#fff8dc"/>
+    <path d="M335,298 Q339,294 343,296 Q344,299 341,301 Q337,300 335,298Z" fill="#fef5c8"/>
+    <path d="M408,340 Q413,335 417,338 Q418,342 414,344 Q409,343 408,340Z" fill="#fff8dc"/>
+    <path d="M462,275 Q465,271 469,273 Q470,276 467,278 Q463,277 462,275Z" fill="#fef5c8"/>
+    <path d="M385,290 Q388,285 392,287 L390,292 Q387,294 385,290Z" fill="#fff5c0" opacity="0.5"/>
+    <path d="M430,310 Q434,306 437,308 L435,313 Q432,314 430,310Z" fill="#fff5c0" opacity="0.5"/>
+  </g>
+
+  <path d="M395,205 Q388,180 395,160 Q402,140 392,118" stroke="url(#steam-grad)" stroke-width="3" fill="none" stroke-linecap="round">
+    <animate attributeName="opacity" values="0.5;0.15;0.5" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="d" values="M395,205 Q388,180 395,160 Q402,140 392,118;M395,205 Q402,178 395,158 Q388,138 398,115;M395,205 Q388,180 395,160 Q402,140 392,118" dur="4s" repeatCount="indefinite"/>
+  </path>
+
+  <path d="M355,210 Q348,188 355,168 Q362,148 352,130" stroke="url(#steam-grad)" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <animate attributeName="opacity" values="0.4;0.1;0.4" dur="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="d" values="M355,210 Q348,188 355,168 Q362,148 352,130;M355,210 Q362,186 355,166 Q348,146 358,128;M355,210 Q348,188 355,168 Q362,148 352,130" dur="4.5s" repeatCount="indefinite"/>
+  </path>
+
+  <path d="M440,208 Q448,185 440,165 Q432,145 442,125" stroke="url(#steam-grad)" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <animate attributeName="opacity" values="0.45;0.1;0.45" dur="3.2s" repeatCount="indefinite"/>
+    <animate attributeName="d" values="M440,208 Q448,185 440,165 Q432,145 442,125;M440,208 Q432,183 440,163 Q448,143 438,122;M440,208 Q448,185 440,165 Q432,145 442,125" dur="4.2s" repeatCount="indefinite"/>
+  </path>
+
+  <path d="M375,200 Q370,182 377,165 Q384,148 375,132" stroke="url(#steam-grad)" stroke-width="1.5" fill="none" stroke-linecap="round">
+    <animate attributeName="opacity" values="0.3;0.08;0.3" dur="2.8s" repeatCount="indefinite"/>
+  </path>
+
+  <path d="M420,202 Q428,184 420,168 Q412,152 422,135" stroke="url(#steam-grad)" stroke-width="1.5" fill="none" stroke-linecap="round">
+    <animate attributeName="opacity" values="0.35;0.08;0.35" dur="3.8s" repeatCount="indefinite"/>
+  </path>
+</svg>
