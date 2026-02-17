@@ -184,14 +184,23 @@ export function renderRecipe(container, recipe) {
         stepBody.textContent = step.body;
         stepDiv.appendChild(stepBody);
 
-        // Timer (if step has time field)
-        if (step.time) {
+        // Timers (supports multiple via timers array, or single via time field)
+        const timers = step.timers ? step.timers : step.time ? [{ time: step.time }] : [];
+
+        for (const timerDef of timers) {
             const timerDiv = document.createElement('div');
             timerDiv.className = 'timer';
 
+            if (timerDef.label) {
+                const timerLabel = document.createElement('span');
+                timerLabel.className = 'timer-label';
+                timerLabel.textContent = timerDef.label;
+                timerDiv.appendChild(timerLabel);
+            }
+
             const timerDisplay = document.createElement('span');
             timerDisplay.className = 'timer-display';
-            timerDisplay.textContent = step.time;
+            timerDisplay.textContent = timerDef.time;
             timerDiv.appendChild(timerDisplay);
 
             const timerButton = document.createElement('button');
@@ -201,7 +210,7 @@ export function renderRecipe(container, recipe) {
 
             // Create timer instance
             const timer = createTimer(
-                step.time,
+                timerDef.time,
                 (_remainingSeconds, formattedTime) => {
                     timerDisplay.textContent = formattedTime;
                 },

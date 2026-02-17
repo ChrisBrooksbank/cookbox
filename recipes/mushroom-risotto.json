@@ -75,7 +75,11 @@
         {
             "title": "Start the risotto base",
             "body": "Wipe the pan clean. Add the remaining 2 tablespoons oil, onion, and 1/4 teaspoon salt. Cook for 5-8 minutes until softened. Stir in the garlic, thyme, and rice; cook for 1 minute until fragrant. Add the wine and cook for 1-3 minutes until mostly reduced.",
-            "time": "8 min"
+            "timers": [
+                { "label": "Soften onion", "time": "6 min" },
+                { "label": "Toast rice", "time": "1 min" },
+                { "label": "Reduce wine", "time": "2 min" }
+            ]
         },
         {
             "title": "Add broth gradually and stir",
