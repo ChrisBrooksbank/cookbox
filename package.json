@@ -1,6 +1,7 @@
 {
     "name": "cookbox",
     "version": "1.0.0",
+    "license": "MIT",
     "private": true,
     "description": "ADHD-friendly recipe PWA",
     "type": "module",
