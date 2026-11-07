@@ -2,6 +2,10 @@
 
 # Cookbox
 
+<!-- hub-link -->
+> Part of [Chris's app hub](https://chrisbrooksbank-hub.netlify.app) - a directory of all my deployed apps.
+<!-- /hub-link -->
+
 ### one step · one timer · zero panic
 
 <img src="docs/demo.gif" alt="Animated demo: opening the mushroom risotto recipe on a phone, ticking off ingredients, and starting a step timer" width="300" />
